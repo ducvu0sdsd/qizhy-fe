@@ -5,7 +5,7 @@ import './wallpaper.scss'
 function WallPapers({walls, index, max}) {
     return (
         <div id='wall-papers-page'>
-            <div className='title col-lg-11'>LIKE DESKTOP WALLPAPERS</div>
+            <div className='title col-lg-11'>QIZHY DESKTOP WALLPAPERS</div>
             <div className='list-wall-papers col-lg-11'>
                 {walls.map((wall, index) => {
                     return <div key={index} className='wall-paper-item col-lg-3'>
