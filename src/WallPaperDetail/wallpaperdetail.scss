@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.wall-paper-detail {
+    margin-top: 30px;
+    padding: 0 40px;
+    min-height: 800px;
+
+    & .wrapper {
+        display: flex;
+
+
+        & .wrapper-left {
+            display: flex;
+            flex-direction: column;
+
+            & .title {
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 26px;
+                text-align: start;
+                margin: 5px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 50px;
+
+                & .date {
+                    font-size: 19px;
+                    color: #3a3a3a;
+                }
+            }
+
+
+            & .downloads {
+                font-size: 22px;
+                font-family: 'Roboto Condensed', sans-serif;
+                display: flex;
+
+                & button {
+                    background-color: #009bce;
+                    color: white;
+                    border: 0;
+                    padding: 5px 10px;
+                    border-radius: 4px;
+                    margin: 2px;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        & .wrapper-right {
+            padding-left: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 60px;
+
+
+            & .wall-paper-other {
+                padding: 0 6px;
+                margin: 7px 0;
+
+                & p {
+                    margin: 0;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    text-align: start;
+                    margin-top: 5px;
+                    line-height: 25px;
+                }
+            }
+
+            & .more {
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 18px;
+                margin: 10px 0;
+                position: absolute;
+                bottom: -7%;
+                left: 25px;
+            }
+        }
+    }
+}
